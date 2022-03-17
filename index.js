@@ -2,20 +2,20 @@ function suma(num1, num2) {
   return num1 + num2
 }
 
-// console.log(suma(2,3))
+console.log("Resultado de suma "+suma(2,3))
 
 function resta(num1, num2) {
   return num1 - num2
 }
 
-// console.log(resta(30,2))
+console.log("Resultado de resta "+resta(30,2))
 
 function multiplicar(factor1, factor2) {
 
-  return Array(factor1).(factor2).reduce(suma, 0);
+  return Array(factor1).fill(factor2).reduce(suma, 0);
 }
 
-// console.log(multiplicar(6,3))
+console.log("Resultado de multiplicacion "+multiplicar(6,3))
 
 function dividir(dividendo, divisor) {
   let resto = dividendo
@@ -27,4 +27,4 @@ function dividir(dividendo, divisor) {
   return total;
 }
 
-// console.log(dividir(90,2))
+console.log("Resultado de division "+dividir(90,2))
