@@ -22,7 +22,7 @@ function dividir(dividendo, divisor) {
   let total = 0;
   for (let i = 1; resto >= divisor; i++) {
     resto = resta(resto, divisor);
-    total = i
+    total++
   }
   return total;
 }
